@@ -1,0 +1,33 @@
+{
+    "keyboard_name": "Phusck2by2",
+    "manufacturer": "Phusck",
+    "url": "Phusck.com",
+    "maintainer": "Phusck",
+    "usb": {
+        "vid": "0x16C0",
+        "pid": "0x27DB",
+        "device_version": "0.0.1"
+    },
+    "layouts": {
+        "LAYOUT_2by2": {
+            "layout": [
+			{
+                    "x": 0,
+                    "y": 0
+                },
+                {
+                    "x": 1,
+                    "y": 0
+                },
+                {
+                    "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                }
+            ]
+        }
+    }
+}
