@@ -7,8 +7,18 @@
 #define MATRIX_COLS 2
 
 /* key matrix pins */
-#define MATRIX_ROW_PINS { 0, 1 }
-#define MATRIX_COL_PINS { 2, 3 }
+#define MATRIX_ROW_PINS               \
+    {                                 \
+        LINE_PIN0,      /* ROW_EQL */ \
+            LINE_PIN1  /* ROW_1 */   \
+    }
+
+#define MATRIX_COL_PINS             \
+    {                               \
+        LINE_PIN2,     /* COL_0 */  \
+            LINE_PIN3 /* COL_1 */  \
+    }
+
 
 /* COL2ROW or ROW2COL */
 #define DIODE_DIRECTION COL2ROW
