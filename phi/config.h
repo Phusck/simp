@@ -17,8 +17,8 @@
 #pragma once
 
 /* key matrix size */
-#define MATRIX_ROWS 2
-#define MATRIX_COLS 2
+#define MATRIX_ROWS 6
+#define MATRIX_COLS 5
 
 /*
  * Keyboard Matrix Assignments
@@ -33,13 +33,20 @@
 #define MATRIX_ROW_PINS               \
     {                                 \
         LINE_PIN0,      /* ROW_EQL */ \
-            LINE_PIN1   /* ROW_1 */   \
+            LINE_PIN1,  /* ROW_1 */   \
+            LINE_PIN2,  /* ROW_2 */   \
+            LINE_PIN3,  /* ROW_3 */   \
+            LINE_PIN4,  /* ROW_4 */   \
+            LINE_PIN5   /* ROW_5 */   \
     }
 
 #define MATRIX_COL_PINS             \
     {                               \
-        LINE_PIN2,     /* COL_0 */ \
-            LINE_PIN3 /* COL_1 */ \
+        LINE_PIN14,     /* COL_0 */ \
+            LINE_PIN15, /* COL_1 */ \
+            LINE_PIN16, /* COL_2 */ \
+            LINE_PIN17, /* COL_3 */ \
+            LINE_PIN18 /* COL_4 */ \
     }
 
 
